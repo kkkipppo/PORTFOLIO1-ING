@@ -1,0 +1,539 @@
+/* hTop */
+.hTop{
+    height: 34px;
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.hone{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    transform: translateY(-50%);
+}
+
+.hone div{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+.ho1{background-color: #fff;}
+
+.ho2{
+    background-color: #fffcf9;
+    margin-left: 18px;
+    margin-right: 18px;
+}
+
+.ho3{background-color: #333;}
+
+
+/* header */
+header{
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #333;
+}
+
+header h1{
+    margin-left: 40px;
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+
+h1 img{
+    display: block;
+    width: 230px;
+}
+
+.gnb{
+    display: flex;
+    font-size: 20px;
+    margin-right: 30px;
+    letter-spacing: 1px;
+}
+
+.gnb li{
+    margin-left: 18px;
+    margin-right: 18px;
+}
+
+.gnb li:last-child{
+    margin-right: 0;
+}
+
+.gnb li:hover{
+    color: #ccc;
+}
+
+
+/* button top */
+.top{
+    display: none;
+    z-index: 10;
+    position: fixed;
+    bottom: 72px;
+    right: 30px;
+}
+
+.top img{
+    width: 50px;
+}
+
+.top p{
+    color: #333;
+    letter-spacing: 1px;
+}
+
+/* bn */
+.bn{
+    color: #333;
+    text-align: center;
+    margin-top: 172px;
+}
+
+.bn p:nth-child(1){
+    font-size: 80px;
+    letter-spacing: 8px;
+}
+
+.record{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
+}
+
+.record p{
+    font-size: 20px;
+    margin-left: 7px;
+    letter-spacing: 1px;
+}
+
+.record img{
+    display: block;
+    height: 15px;
+}
+
+
+/* poster */
+.poster{
+    margin-top: 240px;
+    position: relative;
+    color: #333;
+}
+
+.back{
+    height: 600px;
+    background-color: #ccc;
+}
+
+.posterMain{
+    width: 1320px;
+    position: absolute;
+    top: 120px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+}
+
+.poster img{
+    display: block;
+}
+
+.posterPic{
+    margin-right: 80px;
+}
+
+.postPic{
+    display: none;
+}
+
+.postPic:nth-child(1){
+    display: block;
+}
+
+.posterInfo{
+    margin-left: 80px;
+    width: 467px;
+    height: 661px;
+}
+
+.poster .tit{
+    font-size: 60px;
+    letter-spacing: 20px;
+    margin-top: 120px;
+}
+
+.posterTxt .ex{
+    display: none;
+    margin-top: 72px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 28px;
+}
+
+.posterTxt .ex:nth-child(1){
+    display: block;
+}
+
+.preview{
+    margin-top: 100px;
+    display: flex;
+}
+
+.prePic{
+    box-sizing: border-box;
+}
+
+.prePic:nth-child(1){
+    border: 2px solid #333;
+}
+
+.prePic:nth-child(2){
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+
+
+
+
+
+/* artwork */
+.artwork{
+    margin-top: 344px;
+    width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #333;
+}
+
+.artwork .tit{
+    text-align: center;
+    font-size: 60px;
+    letter-spacing: 40px;
+}
+
+.artCon{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 72px;
+}
+
+.artItem{
+    width: 407px;
+    height: 470px;
+    border: 1px solid #333;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.artPbox{
+    width: 407px;
+    height: 470px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.artPbox img{
+    display: block;
+    margin-top: 46px;
+}
+
+.artPbox p{
+    margin-top: 48px;
+}
+
+.artEbox{
+    width: 407px;
+    height: 470px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+    opacity: 0;
+}
+
+.artItem:hover .artEbox{
+    opacity: 1;
+}
+
+.artEbox p{
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 2px;
+    line-height: 25px;
+    color: #fffcf9;
+}
+
+.artTit{
+    font-size: 18px;
+    text-align: center;
+}
+
+
+
+/* character */
+.character{
+    margin-top: 172px;
+    width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+    color: #333;
+}
+
+.character .tit{
+    margin-top: 120px;
+    text-align: center;
+    font-size: 60px;
+    letter-spacing: 40px;
+}
+
+.chaCon{
+    margin-top: 72px;
+    display: flex;
+}
+
+.chaPic{
+    width: 264px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.chaBox img{
+    display: block;
+}
+
+.chaTxt{
+    width: 125px;
+    height: 40px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #333;
+    margin-bottom: 120px;
+    margin-top: 24px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.chaTxt p{
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+
+/* insta */
+.insta{
+    margin-top: 172px;
+    margin-bottom: 240px;
+    width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.insta .tit{
+    text-align: center;
+    font-size: 60px;
+    letter-spacing: 40px;
+}
+
+.inCon{
+    margin-top: 72px;
+    display: flex;
+    color: #333;
+}
+
+.inBox{
+    border-radius: 10px;
+    border: 1px solid #333;
+}
+
+.profile{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.proPic{
+    display: flex;
+    align-items: center;
+}
+
+.proPic a{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.proPic img{
+    display: block;
+}
+
+.nick{
+    margin-left: 14px;
+    font-size: 20px;
+}
+
+.one{
+    display: flex;
+}
+
+.one span{
+    display: block;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: #333;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.one span:nth-child(3){
+    margin-right: 0;
+}
+
+.heart{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.heart img{
+    display: block;
+}
+
+.inTxt{
+    margin-left: 30px;
+}
+
+.like{
+    font-size: 20px;
+    margin-top: 12px;
+}
+
+.main{
+    margin-top: 24px;
+    font-size: 18px;
+}
+
+.main span{
+    font-size: 20px;
+    margin-right: 12px;
+}
+
+.tag{
+    margin-top: 24px;
+    font-size: 18px;
+    color: #0256b4;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+
+.sub{
+    margin-top: 24px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.time{
+    margin-top: 24px;
+    color: #ccc;
+    letter-spacing: 1px;
+}
+
+.last{
+    margin-top: 36px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #ccc;
+    letter-spacing: 1px;
+}
+
+.rabbit{
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.rabbit p{
+    margin-left: 22px;
+    font-size: 18px;
+    color: #ccc;
+}
+
+.plus{
+    font-size: 18px;
+    color: #cde5ff;
+    margin-right: 30px;
+}
+
+
+/* footer */
+footer{
+    color: #fff;
+    height: 44px;
+    background-color: #ccc;
+    letter-spacing: 2px;
+}
+
+.fWrap{
+    width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fWrap p{
+    width: 440px;
+    line-height: 44px;
+}
+
+.fWrap p:nth-child(2){
+    text-align: center;
+}
+
+.fWrap p:nth-child(3){
+    text-align: right;
+}
+
+
+
+
+

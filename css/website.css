@@ -1,0 +1,322 @@
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'vouge';
+    src: url(../font/Vogue.woff) format('woff');
+}
+
+
+
+/* main1 */
+
+.main1{
+    font-family: impact;
+    margin-top: 120px;
+    width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mainCon{
+    display: flex;
+}
+
+.mainBox1{
+    position: relative;
+}
+
+.picBox{
+    width: 742px;
+    height: 430px;
+    transition: all 0.5s;
+}
+
+.picBox img{
+    display: block;
+}
+
+.picBox video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 742px;
+    height: 430px;
+}
+
+.picBox p{
+    font-size: 18px;
+    position: absolute;
+    left: 24px;
+    bottom: 24px;
+    font-family: 'Pretendard-Regular';
+    line-height: 26px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.main1 .picBox p{
+    color: #fff;
+}
+
+.mainBox2{
+    margin-top: auto;
+    margin-left: 42px;
+    width: 423px;
+}
+
+.sub{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+}
+
+.num{
+    line-height: 80px;
+    font-size: 80px;
+    letter-spacing: 1px;
+}
+
+.type{
+    line-height: 124px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.tit{
+    font-size: 60px;
+    text-align: right;
+    letter-spacing: 7px;
+}
+
+.font{
+    letter-spacing: 1px;
+    font-size: 20px;
+    text-align: right;
+}
+
+.font1{
+    letter-spacing: 1px;
+    margin-top: 24px;
+}
+
+.font2{
+    letter-spacing: 1px;
+    font-family: 'Pretendard-Regular';
+    font-weight: 700;
+    margin-top: 12px;
+}
+
+.colorChip{
+    margin-top: 24px;
+    display: flex;
+}
+
+.color{
+    font-family: 'Pretendard-Regular';
+    font-weight: 600;
+    width: 141px;
+    height: 30px;
+    text-align: center;
+    font-size: 16px;
+    color: #333;
+    line-height: 30px;
+}
+
+.color1{
+    box-sizing: border-box;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+
+.color2{
+    background-color: #ffdc00;
+}
+
+.color3{
+    background-color: #000;
+    color: #ccc;
+}
+
+
+/* main2 */
+.main2{
+    font-family: 'Pretendard-Regular';
+    margin-top: 172px;
+    border-top: 1px solid #000;
+    width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mainCon2{
+    margin-top: 172px;
+    display: flex;
+    justify-content: right;
+}
+
+.mainBox3{
+    margin-right: 42px;
+    margin-top: auto;
+}
+
+.main2 .num{
+    color: #ccc;
+    font-weight: 700;
+}
+
+.main2 .tit{
+    /* color: #00a7e1; */
+    font-weight: 700;
+    text-align: left;
+    margin-top: 48px;
+    margin-bottom: 24px;
+    letter-spacing: 3px;
+}
+
+.main2 .tit span{
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.main2 .sub{
+    display: unset;
+    font-size: 16px;
+}
+
+.main2 .sub span{
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-right: 12px;
+}
+
+.main2 .sub p:nth-child(2){
+    margin-top: 4px;
+}
+
+.main2 .font{
+    text-align: left;
+    margin-top: 24px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.main2 .color{
+    width: 105px;
+    margin-top: 48px;
+}
+
+.main2 .color2{
+    background-color: #00a7e1;
+}
+
+.main2 .color3{
+    background-color: #ccc;
+    color: #333;
+}
+
+.main2 .color4{
+    background-color: #000;
+    color: #ccc;
+}
+
+.picBox2{
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+}
+
+.picBox2 p{
+    color: #666;
+}
+
+
+/* main3 */
+.main3{
+    font-family: 'vouge';
+    margin-top: 172px;
+    width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 1px solid #000;
+    position: relative;
+}
+
+.main3 .mainCon{
+    display: flex;
+    margin-top: 172px;
+}
+
+.main3 .picBox{
+    border: 1px solid #000;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main3 .picBox p{
+    color: #fff;
+}
+
+.main3 .tit{
+    font-size: 50px;
+    line-height: 60px;
+    letter-spacing: 2px;
+}
+
+.side{
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-align: right;
+    margin-top: 24px;
+}
+
+.main3 .font{
+    font-size: 18px;
+}
+
+.main3 .color2{
+    background-color: #f4f4f4;
+}
+
+
+/* button top */
+.top{
+    position: fixed;
+    bottom: 72px;
+    right: 30px;
+}
+
+.top img{
+    width: 50px;
+}
+
+.top p{
+    color: #333;
+    letter-spacing: 1px;
+}
+
+
+
+/* footer */
+footer{
+    margin-top: 120px;
+}
+
+
+
+
+
+
+
+
+
+
